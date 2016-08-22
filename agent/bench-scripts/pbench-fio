@@ -776,7 +776,7 @@ function fio_print_summary() {
 }
 
 fio_process_options "$@"
-fio_install
+#fio_install
 
 export benchmark config
 pbench-collect-sysinfo --group=$tool_group --dir=$benchmark_run_dir beg
